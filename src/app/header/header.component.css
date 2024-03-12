@@ -1,0 +1,80 @@
+.nav-picture {
+  background: linear-gradient(rgba(0, 0, 0, 0.318), rgba(0, 0, 0, 0.219)), url("./imgs/doctor.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar-scrolled {
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.771);
+}
+
+h1 {
+  color: white;
+}
+
+.nav-picture .navbar-text h1 {
+  margin-top: 140px;
+  font-size: 50px;
+}
+
+.nav-picture .navbar-but {
+  margin-top: 40px;
+}
+
+.nav-picture .navbar-but h6 {
+  font-weight: 100;
+  padding: 5px 20px 0 20px;
+}
+
+.card-body p{
+  font-weight: 500;
+}
+
+.card-body p:hover{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#box {
+  background-color: aliceblue;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+svg {
+  margin: 15px 15px 15px 5px;
+}
+
+#card1 {
+  background-color: rgb(250, 250, 250);
+  border: 2px solid rgb(250, 250, 250);
+}
+
+#card1:hover {
+  background-color: #00BFFF;
+  border: 2px solid #00BFFF;
+}
+
+#message-box {
+  position: relative;
+  bottom: 50px;
+}
+
+#message-box span:hover {
+  color: white;
+}
+
+
